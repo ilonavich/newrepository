@@ -1,0 +1,34 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color-scheme: light dark; /* Supports both light and dark modes */
+  scroll-behavior: smooth; /* Smooth scrolling for better UX */
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+  background-color: #f4f4f9; /* Soft background color */
+  color: #333; /* Dark text color for contrast */
+  line-height: 1.6; /* Improve text readability */
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center content vertically */
+}
+
+p {
+  font-size: 1.2rem; /* Make the text slightly larger */
+  text-align: center; /* Center the paragraph text */
+  padding: 20px;
+  border: 2px solid #ddd; /* Add a subtle border around the text */
+  border-radius: 10px; /* Rounded corners for the border */
+  background-color: #fff; /* White background for the text block */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
